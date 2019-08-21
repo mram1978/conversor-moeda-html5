@@ -23,9 +23,9 @@
 			function chamarAPI(){
 				const endpoint = "https://api.exchangeratesapi.io/latest";
 				var request = new XMLHttpRequest();
-request.addEventListener("load", respostaAPI);
-				request.open("GET", endpoint);
-				request.send();
+					request.addEventListener("load", respostaAPI);
+					request.open("GET", endpoint);
+					request.send();
 			}
 
 		function respostaAPI(){
